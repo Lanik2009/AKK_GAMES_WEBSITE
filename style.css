@@ -1,0 +1,29 @@
+body {
+  background-image: linear-gradient(#b6d9ff, #f49aad); 
+  
+  
+}
+p {
+  color: white;
+  overflow: hidden;
+  
+}
+
+  
+}
+h1 {
+  font-weight: bold;
+  color: white;
+  text-align: center
+}
+
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+
+body.changeColor {
+  background-color: #ffe1b6;
+}
