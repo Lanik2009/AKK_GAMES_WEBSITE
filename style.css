@@ -1,6 +1,9 @@
 body {
   background-image: linear-gradient(#b6d9ff, #f49aad); 
-  
+  width: 100%; /* Set the width to 100% of the viewport */
+  height: 100%; /* Set the height to 100% of the viewport */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
   
 }
 p {
@@ -10,7 +13,7 @@ p {
 }
 
   
-}
+
 h1 {
   font-weight: bold;
   color: white;

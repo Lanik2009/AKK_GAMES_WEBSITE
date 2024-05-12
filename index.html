@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="style.css">
@@ -9,9 +9,6 @@
       #hiddenText {
         display: none; /* Hide the text by default */
     }
-     .myDIV:hover + #hidenText {
-      display: block;
-}
       .outl {
         color: white;
         font-size: 100px;
@@ -73,14 +70,52 @@
         }
 
       </style>
+<style>
+/* Style for navigation bar */
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px 0;
+  width: 3240px;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightblue;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    background-color: rgba(238, 162, 175, 0.535);
+}
+
+.fixed-image {
+    position: absolute; /* Position the image relative to its containing block */
+    top: 500px; /* Adjust top position as needed */
+    left: 2200px; /* Adjust left position as needed */
+}
+.fixed-images {
+    position: absolute; /* Position the image relative to its containing block */
+    top: 500px; /* Adjust top position as needed */
+    left: 1200px; /* Adjust left position as needed */
+}
+</style>
 
 </head>
-    
-    
-    <h1 class="outl">A.K.K Games<img src="cloud.jpeg" alt="cloud" class="cloud" style="width: 300px"><img src="cloud.jpeg" alt="cloud_thin" style=" width: 300px; float:left" class="cloud"></h1>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
 
-<button onClick="toggleText()" class="outl1" style="font-size: 55px;">We Offer</button>
-    <p id="hiddenText" class="outl1" style="font-size: 35px; background-color: rgba(252, 254, 255, 0.41); width: 300px; border: 15px solid rgba(122, 169, 204, 0.54); border-radius: 25px; padding: 50px; margin: 20px;">Our company can offer you to commission us images, games, code snippets etc. If you don't know how to make your idea come to life, request help from our company! We make your developing dreams come true with our tools! - A.K.K production </p>
+<h1 class="outl" style="transform: translate(550px, 0px);">A.K.K Games <img src="Downloads/cloud.jpeg" alt="cloud" class="cloud" style="width: 300px;"><img src="Downloads/cloud.jpeg" alt="cloud_thin" style="width: 300px; float: left;" class="cloud"></h1> 
+
+
+<button onClick="toggleText()" class="outl1" style="display:inline-block; font-size: 55px; overflow: hidden;">We Offer</button> 
+    <p id="hiddenText" class="outl1" style="word-spacing: 20px; overflow: hidden; font-size: 35px; background-color: rgba(252, 254, 255, 0.41); width: 300px; border: 15px solid rgba(122, 169, 204, 0.54); border-radius: 25px; padding: 50px; margin: 20px;">Our company can offer you to commission us images, games, code snippets etc. If you don't know how to make your idea come to life, request help from our company! We make your developing dreams come true with our tools! - A.K.K production </p>
+<img src="Downloads/code.jpeg" class="fixed-image" style="float:right; background-attachment: fixed; width: 700px; height: 700px;">
+<img src="Downloads/compp.png" class="fixed-images">
 
     <script>
         function toggleText() {
@@ -93,14 +128,25 @@
         }
     </script>
     
-    <p class="myDiv" class="outl" style="transform: translate(900px)">FFF</p>
-   <p id="hiddenText"> Free, Functional, Fun
-    <p class="outl2" style="text-align: center">Time of the results may vary depending on your comission request.  Please inform our email or number for a comission that you need! Email: exampleemail@gmail.com , 
+<pre class="outl1" style="font-size: 50px">F   F    F</pre>
+ <p style="transform: translate(0px, -40px);"> R</p>
+ <p style="transform: translate(0px, -30px);"> E</p>
+ <p style="transform: translate(0px, -20px);"> E</p>
+ 
+ <p style="transform: translate(130px, -140px)"> U</p>
+ <p style="transform: translate(130px, -130px)"> N</p>
+ 
+ <p style="transform: translate(270px, -200px)">U</p>
+ <p style="transform: translate(270px, -190px)">N</p>
+ <p style="transform: translate(270px, -180px)">C</p>
+ <p style="transform: translate(270px, -170px)">T</p>
+ <p style="transform: translate(270px, -160px)">I</o>
+ <p style="transform: translate(270px, -150px)">O</p>
+ <p style="transform: translate(270px, -140px)">N</p>
+ <p style="transform: translate(270px, -130px)">A</p>
+ <p style="transform: translate(270px, -120px)">L</p>
+    <p class="outl2" style="transform: translate(600px, 0px)">Time of the results may vary depending on your comission request.  Please inform our email or number for a comission that you need! Email: exampleemail@gmail.com , 
       phone number: +1 xxx-xxx-xxxx<p>
-    <h1 class="outl1">All About The Creators</h1>
-    <p class="outl2">Ailana</p>
-    <p class="outl2">Kailiyah</p>
-    <p class="outl2">Kaleah</p>
-    <p class="outl2">Socials</p>
   </body>
 </html>
+      
