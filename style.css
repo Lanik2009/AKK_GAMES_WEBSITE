@@ -1,11 +1,12 @@
 body {
-  background-image: linear-gradient(#b6d9ff, #f49aad); 
+  background-image: linear-gradient(#b6d9ff, #f49aad);
   width: 100%; /* Set the width to 100% of the viewport */
   height: 100%; /* Set the height to 100% of the viewport */
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
-  
 }
+  
+
 p {
   color: white;
   overflow: hidden;
@@ -20,12 +21,7 @@ h1 {
   text-align: center
 }
 
-h2 {
-  color: white;
-}
-h3 {
-  color: white;
-}
+
 
 body.changeColor {
   background-color: #ffe1b6;

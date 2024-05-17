@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Music</title>
+</head>
+<body>
+    <button onclick="playMusic()">Play Music</button>
+
+    <script>
+        function playMusic() {
+            var music = new Audio('you_are_inlove.mp3');
+            music.play().then(() => {
+                console.log("Playing audio");
+            }).catch(error => {
+                console.error("Error playing audio: ", error);
+            });
+        }
+    </script>
+</body>
+</html>
