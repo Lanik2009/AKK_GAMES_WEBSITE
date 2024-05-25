@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
     button.style.padding = "20px 30px"; // Change padding
     button.style.border = "5px solid white"; // Add border with color
     button.style.borderRadius = "10px"; // Add border radius for smoothness
+    button.style.top = '1000px';
+    button.style.left = '0px';
 
     button.addEventListener("click", function() {
         

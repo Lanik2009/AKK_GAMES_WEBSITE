@@ -7,3 +7,96 @@ h1{
     font-size: 100px;
     color: #FFF0F4;
 }
+
+/* Common styles for photo wrappers */
+.photo-wrapper {
+    width: 700px; /* Adjust as needed */
+    overflow: hidden;
+    position: absolute; /* Use absolute positioning to move it dynamically */
+    text-align: center; /* Center the text below the image */
+    border-radius: 30px;
+    transition: top 0.5s ease, left 0.5s ease; /* Smooth transition for position changes */
+}
+
+/* Specific initial positions for each photo wrapper */
+#photoWrapper1 {
+    top: 50px; /* Initial top position for the first image */
+    left: 50px; /* Initial left position for the first image */
+    animation: movePhotoWrapper1 5s forwards; /* Animation to move the first photo wrapper */
+}
+
+#photoWrapper2 {
+    top: 600px; /* Initial top position for the second image */
+    left: 400px; /* Initial left position for the second image */
+    animation: movePhotoWrapper2 5s forwards; /* Animation to move the second photo wrapper */
+}
+
+/* Style for the images */
+.photo-wrapper img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease, filter 0.5s ease; /* Smooth transition for transform and filter */
+    border-radius: 30px;
+}
+
+/* Style for the hover text */
+.hover-text {
+    position: absolute; /* Position the text absolutely within the container */
+    bottom: 10px; /* Adjust as needed to position the text */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px; /* Optional: Adjust width */
+    text-align: center;
+    background-color: rgba(43, 169, 112, 0.441); /* Background color with opacity */
+    color: #ffdee7; /* Text color */
+    font-size: 70px; /* Font size */
+    padding: 10px; /* Padding for better readability */
+    border-radius: 10px;
+    opacity: 0; /* Hide the text initially */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+/* Hover effect for the images */
+.photo-wrapper:hover img {
+    transform: scale(1.1); /* Slightly scale up the image */
+    filter: brightness(120%); /* Lighten the image */
+}
+
+/* Hover effect to display the text */
+.photo-wrapper:hover .hover-text {
+    opacity: 1; /* Show the text on hover */
+}
+
+/* Keyframes for the animations */
+@keyframes movePhotoWrapper1 {
+    100% {
+        top: 200px; /* New top position for the first image */
+        left: 2000px; /* New left position for the first image */
+    }
+}
+
+@keyframes movePhotoWrapper2 {
+    100% {
+        top: 200px; /* New top position for the second image */
+        left: 1100px; /* New left position for the second image */
+    }
+}
+
+
+/* Container for the GIF */
+.gif-container {
+    position: absolute; /* Position the container absolutely */
+    top: 900px; /* Set top position */
+    left: 50px; /* Set left position */
+    padding: 10px; /* Optional: Add padding around the GIF */
+    border: 5px solid #ffdee7; /* Add colored border */
+    border-radius: 15px; /* Add rounded corners */
+}
+
+/* Style for the GIF */
+.gif-container img {
+    display: block; /* Ensure the image is displayed as a block element */
+    width: 800px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 15px; /* Match the border radius of the container */
+}
