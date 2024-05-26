@@ -1,0 +1,162 @@
+body {
+    background: rgba(198, 181, 228, 0.91)
+    }
+    
+h1.title {
+    font-family: courier;
+    font-size: 100px;
+    text-align:center;
+    color: mintcream;
+    }
+    
+p.ps {
+    font-family:courier;
+    font-size: 30px;
+    text-align: center;
+    color: mintcream;
+    border-style:solid;
+    border-color: rgba(167, 145, 240, 0.56);
+    border-radius: 50px;
+    border-width: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(191, 187, 245, 0.71);
+    color: mintcream;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-family: courier;
+    }
+    
+p.maze {
+    font-family: courier;
+    text-align: right;
+    color: mintcream;
+    border-style:solid;
+    border-color: rgba(167, 145, 240, 0.56);
+    border-radius: 50px;
+    border-width: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(191, 187, 245, 0.71);
+    color: mintcream;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 1100px;
+    margin-right: 20px;
+    font-family: courier;
+    font-size: 30px;
+    
+    }
+    
+p.dodge {
+    font-family: courier;
+    text-align: left;
+    color: mintcream;
+    border-style:solid;
+    border-color: rgba(167, 145, 240, 0.56);
+    border-radius: 50px;
+    border-width: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(191, 187, 245, 0.71);
+    color: mintcream;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 1100px;
+    font-family: courier;
+    font-size: 30px;
+    }
+    
+p.chase {
+    font-family: courier;
+    text-align: right;
+    color: mintcream;
+    border-style:solid;
+    border-color: rgba(167, 145, 240, 0.56);
+    border-radius: 50px;
+    border-width: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(191, 187, 245, 0.71);
+    color: mintcream;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 1100px;
+    margin-right: 20px;
+    font-family: courier;
+    font-size: 30px;
+    }
+    
+h2.maze {
+    border-style:dotted;
+    border-color: rgba(167, 145, 240, 0.56);
+    border-radius: 50px;
+    border-width: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(191, 187, 245, 0.71);
+    color: mintcream;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 1400px;
+    margin-right: 5px;
+    font-family: courier;
+    font-size: 70px;
+    }
+    
+h2.dodge {
+    border-style:dotted;
+    border-color: rgba(167, 145, 240, 0.56);
+    border-radius: 50px;
+    border-width: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(191, 187, 245, 0.71);
+    color: mintcream;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 1540px;
+    font-family: courier;
+    font-size: 70px;
+    display: inline-block;
+    }
+    
+h2.chase {
+    border-style:dotted;
+    border-color: rgba(167, 145, 240, 0.56);
+    border-radius: 50px;
+    border-width: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(191, 187, 245, 0.71);
+    color: mintcream;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 1400px;
+    margin-right: 5px;
+    font-family: courier;
+    font-size: 70px;
+    }
+    
+img.cloud2 {
+    height: 150px;
+    }
+    
+img.cloud3 {
+    height: 150px;
+    }
+    
+img.cloud1 {
+    height: 150px;
+    }

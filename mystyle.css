@@ -31,6 +31,12 @@ h1{
     animation: movePhotoWrapper2 5s forwards; /* Animation to move the second photo wrapper */
 }
 
+#photoWrapper3 {
+    top: 200px; /* Initial top position for the second image */
+    left: 50px; /* Initial left position for the second image */
+    animation: movePhotoWrapper3 5s forwards; /* Animation to move the second photo wrapper */
+}
+
 /* Style for the images */
 .photo-wrapper img {
     width: 100%;
@@ -79,6 +85,13 @@ h1{
     100% {
         top: 200px; /* New top position for the second image */
         left: 1100px; /* New left position for the second image */
+    }
+}
+
+@keyframes movePhotoWrapper3 {
+    100% {
+        top: 200px; /* New top position for the second image */
+        left: 200px; /* New left position for the second image */
     }
 }
 
